@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="10dp"
+    android:background="@drawable/side_nav_bar_warning"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:layout_marginRight="@dimen/fab_margin"
+        android:layout_marginBottom="@dimen/fab_margin"
+        android:text="@string/instruction29"
+        android:id="@+id/textView5"
+        android:textSize="24sp"
+        android:textColor="@color/colorPrimary"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:layout_marginRight="@dimen/fab_margin"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"
+        android:hint="@string/instruction30"
+        android:id="@+id/editText" />
+
+    <EditText
+
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:layout_marginRight="@dimen/fab_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"
+        android:hint="@string/instruction31"
+        android:id="@+id/editText2" />
+
+    <Button
+        android:layout_marginTop="@dimen/fab_margin"
+        android:layout_width="wrap_content"
+        android:layout_marginRight="@dimen/fab_margin"
+        android:layout_height="wrap_content"
+        android:text="@string/instruction19"
+        android:background="@drawable/side_nav_bar_warning"
+        android:id="@+id/btnconfirmardialog3"
+        android:textColor="@color/colorPrimary"
+        android:layout_gravity="right" />
+</LinearLayout>

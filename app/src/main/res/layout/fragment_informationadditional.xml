@@ -1,0 +1,236 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/side_nav_bar_warning"
+    tools:context="com.example.danozz.chaanpal.Informationadditional"
+    android:id="@+id/fl_informationadditional">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView301" >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/dangerll">
+
+        <TextView
+            android:layout_marginTop="@dimen/fab_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dato0101"
+            android:textSize="32sp"
+            android:textColor="@color/colorAccent"
+            android:gravity="center_horizontal"
+            android:text="@string/instruction33"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_marginTop="@dimen/fab_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dato1"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center_horizontal"
+            android:text="@string/instruction3301"
+            android:layout_gravity="center_horizontal" />
+        <TextView
+            android:layout_marginTop="@dimen/fab_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dato0102"
+            android:textSize="32sp"
+            android:textColor="@color/colorAccent"
+            android:gravity="center_horizontal"
+            android:text="@string/instruction34"
+            android:layout_gravity="center_horizontal" />
+        <TextView
+            android:layout_marginTop="@dimen/fab_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dato2"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal" />
+        <TextView
+            android:layout_marginTop="@dimen/fab_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dato0103"
+            android:textSize="32sp"
+            android:textColor="@color/colorAccent"
+            android:gravity="center_horizontal"
+            android:text="@string/instruction35"
+            android:layout_gravity="center_horizontal" />
+        <TextView
+            android:layout_marginTop="@dimen/fab_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dato3"
+            android:textColor="@color/colorPrimary"
+            android:text="@string/instruction41"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal" />
+        <TextView
+            android:layout_marginTop="@dimen/fab_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dato0104"
+            android:textSize="32sp"
+            android:textColor="@color/colorAccent"
+            android:gravity="center_horizontal"
+            android:text="@string/instruction36"
+            android:layout_gravity="center_horizontal" />
+        <TextView
+            android:layout_marginTop="@dimen/fab_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dato4"
+            android:textColor="@color/colorPrimary"
+            android:text="@string/instruction40"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal" />
+        <ImageView
+            android:layout_marginTop="@dimen/fab_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/ic_danger03"
+            android:id="@+id/imgbtnInformation2" />
+        <TextView
+            android:layout_marginTop="@dimen/fab_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dato5"
+            android:gravity="center_horizontal"
+            android:textColor="@color/colorPrimary"
+            android:layout_gravity="center_horizontal" />
+        <Button
+            android:layout_marginTop="@dimen/fab_margin"
+            android:layout_marginLeft="@dimen/fab_margin"
+            android:layout_marginRight="@dimen/fab_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="@string/instruction25"
+            android:id="@+id/btngolocalization" />
+    </LinearLayout>
+    </ScrollView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView3" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/ll_Information">
+            <TextView
+                android:layout_marginTop="@dimen/text_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textColor="@color/colorWhite"
+                android:text="@string/instruction26informationadditional" />
+            <ImageButton
+                android:layout_marginTop="@dimen/fab_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/fetus"
+                android:id="@+id/imgbtnInformation" />
+            <TextView
+                android:layout_marginLeft="@dimen/fab_margin"
+                android:layout_marginTop="@dimen/text_margin"
+                android:layout_marginRight="@dimen/fab_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textColor="@color/colorWhite"
+                android:text="@string/instruction29informationadditional" />
+
+            <CheckBox
+                android:layout_marginLeft="@dimen/fab_margin"
+                android:layout_marginTop="@dimen/fab_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/instruction13informationadditional"
+                android:id="@+id/checkBox"
+                android:textColor="@color/colorPrimary"
+                android:layout_gravity="left"
+                android:checked="false" />
+
+            <CheckBox
+                android:layout_marginLeft="@dimen/fab_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/instruction14informationadditional"
+                android:id="@+id/checkBox2"
+                android:textColor="@color/colorPrimary"
+                android:layout_gravity="left"/>
+
+            <CheckBox
+                android:layout_marginLeft="@dimen/fab_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/instruction15informationadditional"
+                android:id="@+id/checkBox3"
+                android:textColor="@color/colorPrimary"
+                android:layout_gravity="left" />
+
+            <CheckBox
+                android:layout_marginLeft="@dimen/fab_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/instruction16informationadditional"
+                android:id="@+id/checkBox4"
+                android:textColor="@color/colorPrimary"
+                android:layout_gravity="left" />
+
+            <CheckBox
+                android:layout_marginLeft="@dimen/fab_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/instruction17informationadditional"
+                android:id="@+id/checkBox5"
+                android:textColor="@color/colorPrimary"
+                android:layout_gravity="left" />
+
+            <CheckBox
+                android:layout_marginLeft="@dimen/fab_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/instruction18informationadditional"
+                android:id="@+id/checkBox6"
+                android:textColor="@color/colorPrimary"
+                android:layout_gravity="left" />
+
+            <CheckBox
+                android:layout_marginLeft="@dimen/fab_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/instruction19informationadditional"
+                android:id="@+id/checkBox7"
+                android:textColor="@color/colorPrimary"
+                android:layout_gravity="left" />
+
+            <Button
+                android:layout_marginTop="@dimen/fab_margin"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="@dimen/fab_margin"
+                android:layout_marginRight="@dimen/fab_margin"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="@string/instruction27informationadditional"
+                android:id="@+id/btnDangerous" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

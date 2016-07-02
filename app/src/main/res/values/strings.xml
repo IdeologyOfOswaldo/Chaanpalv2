@@ -1,0 +1,392 @@
+<resources>
+    <string name="app_name">Chaanpal</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_about">Acerca de...</string>
+    <string name="title_activity_information">Chaanpal</string>
+    <string name="ltInformation01">
+        "Acerca de Chaanpal."
+    </string>
+    <string name="ltInformation02">
+        "Con Chaanpal puede realizar actividades distintas, una característica principal es saber "
+        "que sexo será el bebé. Esto se puede obtener si se ingresa el mes en que la mujer se ha "
+        "embarazado o mejor aún, el mes en que quisiera embarazarse. También la edad es muy "
+        "indispensable para el cálculo del sexo del bebé, además se debe de indicar si cumple años "
+        "o no durante los 9 meses posteriores al mes seleccionado. Los resultados serán efectivos, "
+        "solo si los datos de entrada son correctos."
+    </string>
+    <string name="ltInformation03">
+        "La recomendación de un médico con experiencia en el tema del embarazo, fue que desde antes "
+        "del embarazo se debe llevar un control médico y que mínimo debe tener 5 consultas durante "
+        "el periodo gestacional, es por eso que usted puede obtener información como la "
+        "geolocalización de centros de atención, para llevar un control médico a través de la "
+        "geolocalización, esta opción está incorporada en las opciones de Chaanpal."
+    </string>
+    <string name="ltInformation04">
+        "También hay información tanto como de riesgos del embarazo como de un embarazo saludable.\n"
+        "Esta información se encuentra disponible en las opciones que ofrece Chaanpal.\n\n"
+    </string>
+    <string name="title_activity_home">Inicio</string>
+    <string name="instruction1">¡Bienvenido!</string>
+    <string name="instruction2">Ya puede comenzar a utilizar Chaanpal.</string>
+    <string name="instruction3">Con Chaanpal, puede lograr saber cuál será el sexo de su bebé, antes o después de su embarazo.</string>
+    <string name="descriptionIMG01">Image of presentation</string>
+
+    <string name="instruction4">Sexo del bebe</string>
+    <string name="instruction5">Centros de atención</string>
+    <string name="instruction6">Riesgos</string>
+    <string name="instruction7">Explore más opciones aquí</string>
+    <string name="instruction8">Mes de embarazo</string>
+    <string name="instruction9">Edad</string>
+    <string name="instruction10">Cumple años durante el embarazo?</string>
+    <string name="instruction11">Continuar...</string>
+    <string name="instruction1101">Regresar</string>
+    <string name="instruction12informationadditional">
+        "Sabias que el numero 20 es muy importante en el embarazo ya que antes de estas semanas se "
+        "considera un embrión, posteriormente es llamado feto. Por otra parte si se presentan "
+        "anomalías antes de este tiempo se le nombra “amenaza de aborto”, de lo contrario se "
+        "considera parto prematuro."</string>
+    <string name="instruction13informationadditional">
+        "Sangrado vaginal abundante</string>
+    <string name="instruction14informationadditional">
+        "Hemorragias periódicas"
+    </string>
+    <string name="instruction15informationadditional">
+        "Infección de vías urinarias"</string>
+    <string name="instruction16informationadditional">
+        "Tipo de sangre"</string>
+    <string name="instruction17informationadditional">
+        "Calcular IMC (Índice de Masa Corporal)"</string>
+    <string name="instruction18informationadditional">
+        "Hinchazón de pies"
+    </string>
+    <string name="instruction19informationadditional">
+        "Zumbido de oídos"
+    </string>
+    <string name="instruction20informationadditional">
+        "Cólicos"</string>
+    <string name="instruction21informationadditional">
+        "Ardor al orinar"</string>
+    <string name="instruction22informationadditional">
+        "Ganas de orinar constantemente"</string>
+    <string name="instruction26informationadditional">
+        "Presione la imagen para ver un dato curioso"</string>
+    <string name="instruction27informationadditional">
+        "Calcular riesgo del embarazo"</string>
+    <string name="instruction28informationadditional">
+        "Continuar..."</string>
+    <string name="instruction29informationadditional">
+        "A continuación, seleccione los síntomas que presente."</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="checkBoxTrue">Si</string>
+    <string name="checkBoxFalse">No</string>
+    <string name="instruction13Pregnant">
+        "Ponerse en manos de un médico antes del embarazo, para descartar enfermedades previamente o "
+        "antes del embarazo, para que el bebé crezca en óptimas condiciones y no se les transmitan "
+        "las infecciones al bebé, ni las bacterias, así como su pH se vuelve alcalino y las bacterias "
+        "crecen atacando al bebé."
+    </string>
+    <string name="instruction13Pregnant02">
+        "La Norma Oficial Mexicana NOM-007 nos habla de que la mujer debe tener 5 consultas como mínimo "
+        "durante el embarazo.\n\nPrimera consulta. A las 5 semanas o cuando se haya enterado que está "
+        "embarazada.\nSegunda consulta. A las 12 semanas.\nTercera consulta. A las 28 semanas.\nCuarta "
+        "consulta. A las 32 semanas.\nQuinta consulta. A las 39 semanas."
+    </string>
+    <string name="instruction13Pregnant03">
+        "Lo recomendable es que se hagan exámenes de orina para detectar bacterias en la orina y "
+        "proteinas.
+    </string>
+    <string name="instruction13Pregnant04">
+        "Alimentación. Deben cuidar la anemia, está permitido subir sólo de 10kg a 12 kg, "
+        "si no se cuida la alimentación esto puede provocar anemia en la mujer, disminuye la "
+        "concentración de hemoglobina (comúnmente una mujer tiene 14 de hemoglobina), una embarazada "
+        "tiene alrededor de 12 lo cual la pone en peligro. Para esto se recomienda fumarato ferroso "
+        "y ácido fólico tomado del diario, para prevenir el sufrimiento fetal agudo y las "
+        "malformaciones. Si se sube más del peso permitido se produce la preclamsia y diabetes."
+    </string>
+    <string name="instruction13Pregnant0401">
+        "Una de las opciones para saber el sexo de bebé es por medio de un ultrasonido, que tiene "
+        "un precio entre los $600 a $1000. Otro sería tomar células del líquido amniótico (cromosomas), "
+        "éste método puede poner en riesgo al producto además de ser caro.\n\nSi consulta a un "
+        "radiólogo, recordar comentarle revisar partes especificas del bebe. Dos de cada díez bebes "
+        "presentan problemas respiratorios antes de nacer.\n\nSe recomienda a las mamás mayor cuidado "
+        "en la etapa perinatal, poniéndole atención al género, por la tasa de mortalidad mayor en "
+        "varones que en mujeres."
+    </string>
+    <string name="instruction13Pregnant05">
+        "Es más recomendable ir a un centro de atención medica especializado en el embarazo, ya que "
+        "en ocasiones tienden a acudir con parteras y éstas no cuentan con el material necesario para "
+        "un parto limpio y eficaz.\n\nSe recomienda asistir a un hospital general de gobierno."
+    </string>
+    <string name="instruction13Pregnant06">
+        "La mortalidad en un 80% de los bebes muertos es por atención de parteras.\n\n"
+    </string>
+    <string name="instruction14">Embarazo saludable</string>
+    <string name="instruction15">Usted tendrá un niño</string>
+    <string name="instruction16">Usted tendrá una niña</string>
+    <string name="instruction17">Importante</string>
+    <string name="instruction18">" Al presionar confirmar, usted sabrá el sexo de su bebé."</string>
+    <string name="instruction19">"Confirmar"</string>
+    <string name="instruction20">"Cancelar"</string>
+    <string name="instruction21">"Puede saber que sexo será su bebé en cualquier momento"</string>
+    <string name="instruction22">"El riesgo en el embarazo es bajo"</string>
+    <string name="instruction23">"El riesgo en el embarazo es medio"</string>
+    <string name="instruction24">"Usted ha seleccionado que hay sangrado vaginal abundante y/o "
+    "también hemorragias periódicas."</string>
+    <string name="instruction2402">"El riesgo de su embarazo es alto, consulte los lugares de atención"</string>
+    <string name="instruction25">"Localizar centros de atención"</string>
+    <string name="instruction26localizationGeneral">"Teziutlán, Puebla, México"</string>
+    <string name="instruction26additionalboy">
+        "Usted tendrá un niño."
+    </string>
+    <string name="instruction26additionalboy2">
+        "De acuerdo al género, es más común ciertas enfermedades en el género masculino que en el "
+        "femenino, e incluso mortales. Los niños tienen más riesgo de morir y son susceptibles al "
+        "momento del parto."
+    </string>
+    <string name="instruction26additionalboy3">
+        "Para reducir la taza de mortalidad, bebe cuidar a su bebé de las siguientes enfermedades."
+    </string>
+    <string name="instruction26additionalboy4">"°La hipoxia cerebral. El niño nace y no llora, "
+        "falta de oxigenación."
+    </string>
+    <string name="instruction26additionalboy5">"°Síndrome de pulmón húmedo. Es cuando el niño traga "
+        "líquido amniótico al momento del parto, termina en neumonía."
+    </string>
+    <string name="instruction26additionalboy6">
+        "°Apnea del recién nacido. Se presenta por la falta de maduración pulmonar, y como "
+        "consecuencia provoca meterlo a una incubadora."
+    </string>
+    <string name="instruction26additionalboy7">
+        "°Síndrome de membrana hialina. El niño nace sin un líquido especial. (factor surfactante) "
+        "prematuros."
+    </string>
+    <string name="instruction26additionalboy8">
+        "°Estenosis Pilórica. Parte final del estómago son se va el alimento, presenta muchas "
+        "complicaciones."
+    </string>
+    <string name="instruction26additionalboy9">
+        "°Atresia de esófago. Se cierra el esófago."
+    </string>
+    <string name="instruction26additionalboy10">
+        "°Ictericia. Tanto fisiológica como por alguna enfermedad patológica. Se ponen"
+        "amarillos."
+    </string>
+    <string name="instruction26additionalboy11">
+        "°Acondroplasia. Enanismo."
+    </string>
+    <string name="instruction26additionalgirl">
+        "Usted tendrá una niña."
+    </string>
+    <string name="instruction26additionalgirl2">
+        "De acuerdo al género, es poco frecuente ciertas enfermedades en el género femenino. Las niñas "
+        "tienen menor riesgo de morir"
+    </string>
+    <string name="instruction26additionalgirl3">
+        "°Anencefalia. Nacen sin cráneo (alto porcentaje en la región de Teziutlán, Puebla, México.) "
+        "esto se debe por la disminución en ácido fólico."
+    </string>
+    <string name="instruction26additionalgirl4">
+        "°Labio leporino y paladar hendido. Defecto craneofacial"
+    </string>
+    <string name="instruction27Type">
+        "Si la madre es del tipo de sangre O- y el padre es A+ marque la opción siguiente:"
+        </string>
+
+    <string name="instruction28Type2">
+        "Si"
+        </string>
+    <string name="instruction29">
+        "Ingrese los datos que se solicitan"
+        </string>
+    <string name="instruction30">
+        "Ingresar peso (kg)"
+        </string>
+    <string name="instruction31">
+        "Ingresar estatura (m) "
+        </string>
+    <string name="instruction32">
+        "Síguenos en Facebook"
+        </string>
+    <string name="instruction33">
+        "Infecciones de vías urinarias seleccionadas"
+        </string>
+    <string name="instruction3301">
+        "No se ha seleccionado alguna infección en específico"
+        </string>
+    <string name="instruction34">
+        "Sintomas seleccionados"
+        </string>
+    <string name="instruction35">
+        "Dato importante"
+        </string>
+    <string name="instruction3501">
+        "Es importante saber que los tipo de sangre contrarios tienen problemas al tener un bebé"
+        </string>
+    <string name="instruction36">
+        "IMC"
+        </string>
+    <string name="instruction37">
+        "El riesgo es alto"
+        </string>
+    <string name="instruction38">
+        "El riesgo es medio"
+        </string>
+    <string name="instruction39">
+        "El riesgo es bajo"
+        </string>
+    <string name="instruction40">
+        "Aún no se calcula el IMC"
+        </string>
+    <string name="instruction41">
+        "En cuanto al tipo de sangre, todo está correcto"
+        </string>
+    <string name="instruction42">
+        "El riesgo es bajo"
+        </string>
+    <array name="spinnerMonth">
+        <item>"Seleccionar aquí"</item>
+        <item>"Enero"</item>
+        <item>"Febrero"</item>
+        <item>"Marzo"</item>
+        <item>"Abril"</item>
+        <item>"Mayo"</item>
+        <item>"Junio"</item>
+        <item>"Julio"</item>
+        <item>"Agosto"</item>
+        <item>"Septiembre"</item>
+        <item>"Octubre"</item>
+        <item>"Noviembre"</item>
+        <item>"Diciembre"</item>
+    </array>
+    <array name="spinnerAge">
+        <item>"Seleccionar aquí"</item>
+        <item>"15 años"</item>
+        <item>"16 años"</item>
+        <item>"17 años"</item>
+        <item>"18 años"</item>
+        <item>"19 años"</item>
+        <item>"20 años"</item>
+        <item>"21 años"</item>
+        <item>"22 años"</item>
+        <item>"23 años"</item>
+        <item>"24 años"</item>
+        <item>"25 años"</item>
+        <item>"26 años"</item>
+        <item>"27 años"</item>
+        <item>"28 años"</item>
+        <item>"29 años"</item>
+        <item>"30 años"</item>
+        <item>"31 años"</item>
+        <item>"32 años"</item>
+        <item>"33 años"</item>
+        <item>"34 años"</item>
+        <item>"35 años"</item>
+        <item>"36 años"</item>
+        <item>"37 años"</item>
+        <item>"38 años"</item>
+        <item>"39 años"</item>
+        <item>"40 años"</item>
+        <item>"41 años"</item>
+        <item>"42 años"</item>
+        <item>"43 años"</item>
+        <item>"44 años"</item>
+    </array>
+    <string name="title_activity_localization_doctors_maps">Map</string>
+    <string name="title_activity_about">About</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="action_settings">Settings</string>
+</resources>

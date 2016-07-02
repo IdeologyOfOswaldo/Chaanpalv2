@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="10dp"
+    android:background="@drawable/side_nav_bar_warning"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="left"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/instruction27Type"
+        android:layout_marginRight="@dimen/fab_margin"
+        android:id="@+id/textView5" />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/instruction28Type2"
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginRight="@dimen/fab_margin"
+        android:id="@+id/checkBoxtrue"
+        android:layout_gravity="left" />
+
+    <Button
+        android:layout_marginTop="@dimen/fab_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/instruction19"
+        android:layout_marginRight="@dimen/fab_margin"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/side_nav_bar_warning"
+        android:id="@+id/btnconfirmardialog2"
+        android:layout_gravity="right" />
+</LinearLayout>

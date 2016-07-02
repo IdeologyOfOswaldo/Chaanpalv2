@@ -1,0 +1,144 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.danozz.chaanpal.Pregnant"
+    android:orientation="vertical"
+    android:background="@drawable/side_nav_bar_pregnant"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView4" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_marginTop="@dimen/fab_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView4"
+                android:src="@drawable/ic_health"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_marginLeft="@dimen/fab_margin"
+                android:layout_marginRight="@dimen/fab_margin"
+                    android:layout_marginTop="@dimen/text_margin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="@string/instruction13Pregnant" />
+
+            <ImageView
+                android:layout_marginTop="@dimen/fab_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView5"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/img01" />
+
+            <TextView
+
+                android:layout_marginLeft="@dimen/fab_margin"
+                android:layout_marginRight="@dimen/fab_margin"
+                android:layout_marginTop="@dimen/text_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/instruction13Pregnant02"/>
+
+            <ImageView
+                android:layout_marginTop="@dimen/fab_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView6"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/pet" />
+
+            <TextView
+
+                android:layout_marginLeft="@dimen/fab_margin"
+                android:layout_marginRight="@dimen/fab_margin"
+                android:layout_marginTop="@dimen/text_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/instruction13Pregnant03" />
+            <ImageView
+                android:layout_marginTop="@dimen/fab_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView7"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/food" />
+
+            <TextView
+                android:layout_marginTop="@dimen/text_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/instruction13Pregnant04" />
+
+            <ImageView
+
+                android:layout_marginLeft="@dimen/fab_margin"
+                android:layout_marginRight="@dimen/fab_margin"
+                android:layout_marginTop="@dimen/fab_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView701"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_contact" />
+
+            <TextView
+                android:layout_marginTop="@dimen/text_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/instruction13Pregnant0401" />
+            <ImageView
+                android:layout_marginTop="@dimen/fab_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView8"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_worldlocation" />
+
+            <TextView
+
+                android:layout_marginLeft="@dimen/fab_margin"
+                android:layout_marginRight="@dimen/fab_margin"
+                android:layout_marginTop="@dimen/text_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/instruction13Pregnant05" />
+            <ImageView
+                android:layout_marginTop="@dimen/fab_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView9"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_warning" />
+
+            <TextView
+                android:layout_marginLeft="@dimen/fab_margin"
+                android:layout_marginRight="@dimen/fab_margin"
+                android:layout_marginTop="@dimen/text_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/instruction13Pregnant06" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,144 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/lL_baby"
+    android:background="@drawable/imgbackground"
+    tools:context=".GirlOrBoy">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView" >
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/lL_girlorboy">
+        <TextView
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:layout_marginTop="@dimen/text_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/instruction8"
+            android:id="@+id/tvSelectMonth"
+            android:textSize="20dp"
+            android:textColor="@color/colorWhite"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"/>
+
+        <Spinner
+            android:layout_marginLeft="@dimen/fab_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner"
+            android:spinnerMode="dialog"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/instruction9"
+            android:id="@+id/tvSelectAge"
+            android:textSize="20dp"
+            android:textColor="@color/colorWhite"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"/>
+
+        <Spinner
+            android:layout_marginLeft="@dimen/fab_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner2"
+            android:spinnerMode="dialog"
+            />
+
+        <TextView
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/instruction10"
+            android:id="@+id/tvWhatAge"
+            android:textSize="20dp"
+            android:textColor="@color/colorWhite"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            >
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/checkBoxTrue"
+                android:textSize="20dp"
+                android:textColor="@color/colorWhite"
+                android:id="@+id/radioButton" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/checkBoxFalse"
+                android:textSize="20dp"
+                android:textColor="@color/colorWhite"
+                android:id="@+id/radioButton2"
+                />
+        </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+
+    <FrameLayout
+        android:id="@+id/fl_boy"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <pl.droidsonroids.gif.GifTextView
+            android:layout_width="150sp"
+            android:layout_height="200sp"
+            android:layout_gravity="center"
+            android:background="@drawable/img_boy"
+            />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_girl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <pl.droidsonroids.gif.GifTextView
+            android:layout_width="150sp"
+            android:layout_height="200sp"
+            android:layout_gravity="center"
+            android:background="@drawable/img_girl"
+            />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_fabgirlorboy"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fabgirlorboy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|bottom"
+            android:layout_margin="@dimen/fab_margin"
+            android:src="@drawable/ic_next" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Más información..."
+            android:layout_margin="@dimen/fab_margin"
+            android:id="@+id/btnMoreinformation"
+            android:layout_gravity="left|bottom" />
+    </FrameLayout>
+</RelativeLayout>
